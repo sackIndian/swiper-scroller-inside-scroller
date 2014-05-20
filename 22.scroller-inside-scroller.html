@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo</title>
+  <link rel="stylesheet" href="css/idangerous.swiper.css">
+  <style>
+/* Demo Styles */
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  position: relative;
+  height: 100%;
+}
+
+/* Gallery */
+.swiper-gallery {
+	width: 100%;
+	height: 100%;
+}
+.swiper-gallery .swiper-slide {
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+/* Scrollbars */
+.swiper-scrollbar {
+	position: absolute;
+	right: 5px;
+	top: 2%;
+	width: 5px;
+	height: 96%;
+	background: rgba(0,0,0,0.2);
+	z-index: 10;
+}
+.swiper-scrollbar-drag {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background: rgba(255,255,255,0.5);
+	border-radius: 10px;
+}
+
+.newScroller
+{
+
+	height: 400px;
+	width: 500px;
+	background-color: red;
+	margin: 0 auto;
+}
+
+  </style>
+</head>
+<body>
+  <div class="swiper-container swiper-gallery">
+		<div class="swiper-scrollbar"></div>
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="page-inner">
+					<h1>Home</h1>
+					<p>Hello, this is an example of simple Swiper-app with the following features:</p>
+					<ul>
+						<li>
+							<p>scrollable text pages (with Swiper scroll container) and scrollbar plugin</p>
+						</li>
+						<li>
+							<p>fluid scrollable navigation on the top (with Swiper free mode)</p>
+						</li>
+						<li>
+							<p>gallery page (with Swiper vertical mode)</p>
+						</li>
+						<li>
+							<p>fully responsive</p>
+						</li>
+					</ul>
+				</div>
+				<div class="page-inner">
+					<h1>Home</h1>
+					<p>Hello, this is an example of simple Swiper-app with the following features:</p>
+					<ul>
+						<li>
+							<p>scrollable text pages (with Swiper scroll container) and scrollbar plugin</p>
+						</li>
+						<li>
+							<p>fluid scrollable navigation on the top (with Swiper free mode)</p>
+						</li>
+						<li>
+							<p>gallery page (with Swiper vertical mode)</p>
+						</li>
+						<li>
+							<p>fully responsive</p>
+						</li>
+					</ul>
+				</div>
+				<div class="swiper-container newScroller">
+						<div class="swiper-scrollbar"></div>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="page-inner">
+									<h1>Home</h1>
+									<p>Hello, this is an example of simple Swiper-app with the following features:</p>
+									<ul>
+										<li>
+											<p>scrollable text pages (with Swiper scroll container) and scrollbar plugin</p>
+										</li>
+										<li>
+											<p>fluid scrollable navigation on the top (with Swiper free mode)</p>
+										</li>
+										<li>
+											<p>gallery page (with Swiper vertical mode)</p>
+										</li>
+										<li>
+											<p>fully responsive</p>
+										</li>
+									</ul>
+								</div>
+								<div class="page-inner">
+									<h1>Home</h1>
+									<p>Hello, this is an example of simple Swiper-app with the following features:</p>
+									<ul>
+										<li>
+											<p>scrollable text pages (with Swiper scroll container) and scrollbar plugin</p>
+										</li>
+										<li>
+											<p>fluid scrollable navigation on the top (with Swiper free mode)</p>
+										</li>
+										<li>
+											<p>gallery page (with Swiper vertical mode)</p>
+										</li>
+										<li>
+											<p>fully responsive</p>
+										</li>
+									</ul>
+								</div>
+								<div class="page-inner">
+									<h1>Home</h1>
+									<p>Hello, this is an example of simple Swiper-app with the following features:</p>
+									<ul>
+										<li>
+											<p>scrollable text pages (with Swiper scroll container) and scrollbar plugin</p>
+										</li>
+										<li>
+											<p>fluid scrollable navigation on the top (with Swiper free mode)</p>
+										</li>
+										<li>
+											<p>gallery page (with Swiper vertical mode)</p>
+										</li>
+										<li>
+											<p>fully responsive</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+				</div>
+				<div class="page-inner">
+					<h1>Home</h1>
+					<p>Hello, this is an example of simple Swiper-app with the following features:</p>
+					<ul>
+						<li>
+							<p>scrollable text pages (with Swiper scroll container) and scrollbar plugin</p>
+						</li>
+						<li>
+							<p>fluid scrollable navigation on the top (with Swiper free mode)</p>
+						</li>
+						<li>
+							<p>gallery page (with Swiper vertical mode)</p>
+						</li>
+						<li>
+							<p>fully responsive</p>
+						</li>
+					</ul>
+				</div>
+				<div class="page-inner">
+					<h1>Home</h1>
+					<p>Hello, this is an example of simple Swiper-app with the following features:</p>
+					<ul>
+						<li>
+							<p>scrollable text pages (with Swiper scroll container) and scrollbar plugin</p>
+						</li>
+						<li>
+							<p>fluid scrollable navigation on the top (with Swiper free mode)</p>
+						</li>
+						<li>
+							<p>gallery page (with Swiper vertical mode)</p>
+						</li>
+						<li>
+							<p>fully responsive</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <script src="js/idangerous.swiper.min.js"></script>
+
+  <script>
+  
+	//Gallery
+	var swiperGallery1 = $('.swiper-gallery').swiper({
+		mode: 'vertical',
+		slidesPerView: 'auto',
+		freeMode: true,
+		freeModeFluid: true,
+		scrollbar: {
+			container:$('.swiper-gallery .swiper-scrollbar')[0]
+		}
+	})
+	
+	
+	//Gallery
+	var swiperGallery2 = $('.newScroller').swiper({
+		mode: 'vertical',
+		slidesPerView: 'auto',
+		freeMode: true,
+		freeModeFluid: true,
+		scrollbar: {
+			container:$('.newScroller .swiper-scrollbar')[0]
+		}
+	})
+	
+  </script>
+</body>
+</html>
